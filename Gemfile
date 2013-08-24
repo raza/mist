@@ -36,6 +36,9 @@ group :development, :test do
 
   # Fixtures framework
   gem 'factory_girl_rails'
+
+  # prints object in full color exposing their internal structure with proper indentation.
+  gem 'awesome_print'
 end
 
 group :test do
